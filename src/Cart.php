@@ -102,7 +102,7 @@ class Cart
         int|float|null $quantity = null,
         array $attributes = [],
         array|CartCondition $conditions = [],
-        ?string $associatedModel = null
+        $associatedModel = null
     ): self {
         // check if we are adding an array of items
         if (is_array($id)) {
